@@ -7,7 +7,7 @@ $ g++ ufs.cpp -o ufs
 $ ./ufs
 ```
 
-# Command
+# Commands
 - Create a file: `createFile fileName fileSize`
 ```shell
 createFile dir1/myFile 10
