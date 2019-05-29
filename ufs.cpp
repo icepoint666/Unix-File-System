@@ -301,7 +301,7 @@ Status createFile(char *path, char *filename, int size){
             root->inode[i].inode_addr[0] = NULL;
             root->inode[i].inode_num_link = 1;
             int num_block = 0;
-            if (size <= BLOCK_SIZE / 3) {
+            if (size <= BLOCK_SIZE / 3 + 10) {
                 if (size <= 10) {
                     num_block = size;
                 }else{
